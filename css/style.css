@@ -1,51 +1,59 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 50px;
-  padding: 30px;
-  background-color: #20ff02;
-  background-image: url("pps1.png");
-    background-repeat: repeat;
-    background-size: 150px;
-    background-color: #ffffff00;
-  }
-  
-
-  
-
-#header {
-  background-color: rgb(5, 129, 1);
-  color: rgb(95, 255, 2);
-  padding: 10px 0;
-  text-align: center;
+  background: url("imagenes/pps.png") center center no-repeat;
+  background-size: cover;
+  background-color: #000; 
+  font-family: 'Nosifer', cursive;
+  color: #00ff00;
 }
-main {
-  padding: 20px;
-  margin: 25px;
+
+.navbar {
+  background-color: #000 !important; 
 }
+
+.navbar-brand img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.navbar-brand h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.nav-link {
+  color: #ccc !important;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #00ff00 !important;
+}
+
+.container h2 {
+  color: #ff0033;
+  text-shadow: 0 0 8px #ff0033;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: #00ff00;
+  font-size: 1.3rem;
+  text-shadow: 0 0 5px #00ff00;
+}
+
 footer {
   background-color: #000;
-  color: rgb(0, 255, 21);
+  color: #00ff00;
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  padding: 1rem;
+  font-size: 1rem;
 }
-h1{
-  color: #20ff02;
-  margin: 10px 0;
+.carousel-inner img {
+  height: 600px;
+  object-fit: cover;
 }
-.subtitulado{
-  text-decoration:underline !important;
-}
-
-footer .parrafo-footer {
-  font-size: 20px;
-}
-
-.btn-next{
-  color: #000000;
-  background-color:olive;
-  border-color: olive;
-}
-nav{color: #1eff00;}
