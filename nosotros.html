@@ -5,12 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sobre Nosotros - Papas Monster</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
   <style>
     body {
       background-color: #000;
-      color: #0f0;
+      color: #00ff00;
       font-family: 'Arial', sans-serif;
       text-align: center;
       padding-top: 80px;
@@ -23,25 +22,30 @@
       margin-right: 10px;
     }
     .navbar-nav .nav-link {
-      color: #0f0 !important;
+      color: #00ff00 !important;
       font-weight: bold;
     }
-    .social-icons a {
-      color: #0f0;
-      margin: 10px;
-      font-size: 2rem;
+    .contenido {
+      margin-top: 50px;
+    }
+    .fotos-clientes {
+      margin-top: 50px;
+    }
+    .fotos-clientes img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border: 2px solid #00ff00;
+      border-radius: 15px;
+      margin-bottom: 20px;
       transition: transform 0.3s;
     }
-    .social-icons a:hover {
-      transform: scale(1.2);
-      color: #ff0000;
+    .fotos-clientes img:hover {
+      transform: scale(1.05);
     }
-    .card {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid #0f0;
-      border-radius: 15px;
-      padding: 20px;
-      margin-top: 30px;
+    footer {
+      margin-top: 100px;
+      color: #00ff00;
     }
   </style>
 </head>
@@ -51,7 +55,7 @@
       <img src="imagenes/pps.png" alt="Logo Papas Monster">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon" style="color: #0f0;"></span>
+      <span class="navbar-toggler-icon" style="color: #00ff00;"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
@@ -62,24 +66,29 @@
       </ul>
     </div>
   </nav>
-  <div class="container">
+  <div class="container contenido">
     <h1>Sobre Nosotros</h1>
-    <div class="card">
-      <p>En <strong>Papas Monster</strong> combinamos el mejor sabor con una experiencia monstruosamente deliciosa. 🧟‍♂️🍟</p>
-      <p>Desde 2024, nos dedicamos a ofrecer papas gigantes y hamburguesas monstruosas para todos los gustos.</p>
-    </div>
-
-    <h2 class="mt-5">¡Síguenos!</h2>
-    <div class="social-icons">
-      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    </div>
-
-    <footer class="mt-5">
-      <p>&copy; 2025 Papas Monster - Todos los derechos reservados</p>
-    </footer>
+    <p>Somos <strong>Papas Monster</strong>, el lugar donde las papas gigantes y las hamburguesas monstruosas son la especialidad. Desde 2024, hemos servido sonrisas (y papas) a montones.</p>
+    <p>Nos encanta ofrecer combinaciones únicas, sabores extremos y toppings monstruosamente deliciosos. 🧟‍♂️🍔🍟</p>
+    <p>¡Ven y vive la experiencia Monster!</p>
   </div>
+  <div class="container fotos-clientes">
+    <h2>¡Nuestros Clientes Monstruosos!</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <img src="imagenes/cliente1.jpg" alt="Cliente feliz 1">
+      </div>
+      <div class="col-md-4">
+        <img src="imagenes/cliente2.jpg" alt="Cliente feliz 2">
+      </div>
+      <div class="col-md-4">
+        <img src="imagenes/cliente3.jpg" alt="Cliente feliz 3">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Papas Monster - Todos los derechos reservados</p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
